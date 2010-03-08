@@ -1,0 +1,17 @@
+# English strings go here for Rails i18n
+en:
+  my_label: "My label"
+  clients_title: "Clients"
+  permission_view_clients: "View clients"
+  permission_edit_clients: "Edit clients"
+  label_client_new: "New client"
+  label_client_select: "Clients"
+  label_client_show: "Client"
+  field_client: "Client"
+  field_client_first_name: "First name"
+  field_client_last_name: "Last name"
+  field_client_email: "Email"
+  field_client_mobile: "Mobile"
+  field_client_phone: "Phone"
+  notice_successful_create: "Saved"
+  notice_unsuccessful_create: "Could not saved"

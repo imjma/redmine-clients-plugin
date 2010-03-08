@@ -1,0 +1,8 @@
+<tr>
+  <th><%= l(:label_client_show) %></th>
+  <td colspan='3'>
+<% if !issue.clients.blank? %>
+  <%= issue.clients.first_name %>, <%= issue.clients.last_name %>, <%= issue.clients.email %>, <%= issue.clients.mobile %>, <%= issue.clients.phone %>
+<% end %>
+  </td>
+</tr>

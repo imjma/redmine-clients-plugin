@@ -1,0 +1,5 @@
+<% error_messages_for :client %>
+<% labelled_tabular_form_for :client, @client, :url =>{:action => 'create', :id => @project} do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+  <%= submit_tag l(:button_save) -%>
+<% end -%>

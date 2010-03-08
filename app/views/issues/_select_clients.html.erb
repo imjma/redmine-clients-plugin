@@ -1,0 +1,1 @@
+<p><label><%= l(:label_client_select) %></label><%= select :issue, :client_id, @project.clients.collect {|s| [s.first_name + ", " + s.last_name + ", " + s.email + ", " + s.mobile, s.id]}, {:include_blank => true} %></p>
