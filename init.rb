@@ -12,7 +12,7 @@ Dispatcher.to_prepare do
     require_dependency 'application'
   end
 
-  require 'patch_redmine_classes'
+  require 'clients_redmine_classes'
   require 'client_issues_controller_patch'
   
   Project.send(:include, ClientsProjectPatch)
